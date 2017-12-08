@@ -1,0 +1,39 @@
+body{
+  background-color: grey;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  font-size: 35px;
+}
+
+h2{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.container{
+  float: center;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 40px;
+  padding: 15px;
+}
+
+#result1 {
+  display: none;
+}
+
+#result2 {
+  display: none;
+}
+
+#result3 {
+  display: none;
+}
+
+#result4 {
+  display: none;
+}
