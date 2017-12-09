@@ -10,7 +10,7 @@
 
 
 // USER INTERFACE //
-if ((q1 === "" ) && (q2 === "") && (q3 === "") && (q4 === "")) {
+if ((q1 === "High" ) && (q2 === "Yes") && (q3 === "Computers") && (q4 === "Fast")) {
   $("#resultA").show();
   $("#resultB").hide();
   $("#resultC").hide();
@@ -19,7 +19,7 @@ if ((q1 === "" ) && (q2 === "") && (q3 === "") && (q4 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
+else if ((q1 === "High") && (q2 === "Yes") && (q3 === "Computers") && (q4 === "Slow")) {
   $("#resultA").hide();
   $("#resultB").show();
   $("#resultC").hide();
@@ -28,7 +28,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "") (q4 === "")) {
+else if ((q1 === "High") && (q2 === "Yes") && (q3 === "Mobile Devices") (q4 === "Fast")) {
   $("#resultA").hide();
   $("#resultB").hide();
   $("#resultC").show();
@@ -37,7 +37,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "") (q4 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
+else if ((q1 === "High") && (q2 === "No") && (q3 === "Computers") && (q4 === "Fast")) {
   $("#resultA").hide();
   $("#resultB").hide();
   $("#resultC").hide();
@@ -46,7 +46,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
+else if ((q1 === "Low") && (q2 === "Yes") && (q3 === "Computers") && (q4 === "Fast")) {
   $("#resultA").show();
   $("#resultB").hide();
   $("#resultC").hide();
@@ -55,7 +55,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
+else if ((q1 === "Low") && (q2 === "Yes") && (q3 === "Computers") && (q4 === "Slow")) {
   $("#resultA").hide();
   $("#resultB").show();
   $("#resultC").hide();
@@ -64,7 +64,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "")) {
+else if ((q1 === "Low") && (q2 === "Yes") && (q3 === "Mobile Devices") && (q4 === "Fast")) {
   $("#resultA").hide();
   $("#resultB").hide();
   $("#resultC").show();
@@ -73,7 +73,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "")) {
+else if ((q1 === "Low") && (q2 === "No") && (q3 === "Computers") && (q4 === "Fast")) {
   $("#resultA").hide();
   $("#resultB").hide();
   $("#resultC").hide();
@@ -82,7 +82,7 @@ else if ((q1 === "") && (q2 === "") && (q3 === "")) {
   $("#form-dummy").hide();
 }
 
-else if ((q1 === "") && (q2 === "") && (q3 === "")) {
+else if ((q1 === "High") && (q2 === "Yes") && (q3 === "Mobile Devices") && (q4 === "Slow")) {
   $("#resultA").show();
   $("#resultB").hide();
   $("#resultC").hide();
