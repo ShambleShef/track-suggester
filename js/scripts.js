@@ -11,73 +11,83 @@
 
 // USER INTERFACE //
 if ((q1 === "" ) && (q2 === "") && (q3 === "") && (q4 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").show();
+  $("#resultB").hide();
+  $("#resultC").hide();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").hide();
+  $("#resultB").show();
+  $("#resultC").hide();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "") (q4 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").hide();
+  $("#resultB").hide();
+  $("#resultC").show();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").hide();
+  $("#resultB").hide();
+  $("#resultC").hide();
+  $("#resultD").show();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").show();
+  $("#resultB").hide();
+  $("#resultC").hide();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "") && (q4 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").hide();
+  $("#resultB").show();
+  $("#resultC").hide();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").hide();
+  $("#resultB").hide();
+  $("#resultC").show();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").hide();
+  $("#resultB").hide();
+  $("#resultC").hide();
+  $("#resultD").show();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
 
 else if ((q1 === "") && (q2 === "") && (q3 === "")) {
-  $("").show();
-  $("").hide();
-  $("").hide();
-  $("").hide();
-  $("").hide();
+  $("#resultA").show();
+  $("#resultB").hide();
+  $("#resultC").hide();
+  $("#resultD").hide();
+  $("#form-quiz").hide();
+  $("#form-dummy").hide();
 }
+event.preventDefault();
